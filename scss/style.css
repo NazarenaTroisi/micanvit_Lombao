@@ -1,4 +1,4 @@
-@import url(c:\Users\Compumar\Desktop\TiendadeRopacopy\node_modules\bootstrap\dist\css\bootstrap.css);
+@import url(c:\Users\Compumar\Desktop\TiendadeRopacopy\bootstrap\dist\css\bootstrap.css);
 * {
   margin: 0;
   padding: 0;
@@ -264,6 +264,7 @@ footer {
 @media screen and (max-width: 320px) {
   body {
     max-width: 100%;
+    align-content: center;
   }
   label {
     font-size: 1rem;
