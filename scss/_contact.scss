@@ -1,0 +1,184 @@
+$bgColorI: #83293a;
+$bgColorLi: #d46a6a;
+$ColorA: #550000;
+$colorHover: #ffaaaa;
+$borderColor: #851515;
+$colorBase: #ffaaaa;
+$letraSitio: "Dancing Script", cursive;
+$fontsize: 2rem;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $letraSitio;
+  background-color: $colorBase;
+}
+body {
+  height: 100vh;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  background: none;
+}
+i {
+  font-size: 3rem;
+  margin: 0.3rem;
+  color: $borderColor;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__logoNav {
+  width: 150px;
+  animation: logoNav infinite ease-in 3s 0s;
+}
+@keyframes logoNav {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header__navMenu--list {
+  background-color: $bgColorLi;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  border-radius: 30px;
+  .header__navMenu--link {
+    font-size: $fontsize;
+    font-weight: bold;
+    color: $ColorA;
+    &:hover {
+      background-color: $ColorA;
+      color: $colorHover;
+      border-radius: 30px;
+    }
+  }
+}
+form {
+  width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 11%;
+  border-radius: 1rem;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+input {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1rem;
+  width: 21rem;
+  height: 2rem;
+  margin: 0 auto 0 auto;
+  align-items: center;
+  background: none;
+  box-sizing: border-box;
+  border-color: $borderColor;
+  outline: none;
+}
+textarea {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1rem;
+  width: 21rem;
+  height: 2rem;
+  margin: 0 auto 0 auto;
+  align-items: center;
+  background: none;
+  box-sizing: border-box;
+  border-color: $borderColor;
+  outline: none;
+  height: 3.75rem;
+}
+select {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1rem;
+  width: 21rem;
+  height: 2rem;
+  margin: 0 auto 0 auto;
+  align-items: center;
+  background: none;
+  box-sizing: border-box;
+  border-color: $borderColor;
+  outline: none;
+}
+input.radio {
+  height: 1rem;
+}
+input#enviar {
+  background-color: $bgColorI;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+#limpiar {
+  background-color: $bgColorI;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.footer__redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  > .footer__info--text {
+    margin: 0.8rem;
+  }
+}
+
+@media screen and(max-width: 320px) {
+  body {
+    max-width: 100%;
+  }
+  label {
+    font-size: 1rem;
+  }
+  input,
+  textarea,
+  select {
+    width: 10rem;
+  }
+  .i {
+    font-size: 1rem;
+  }
+}

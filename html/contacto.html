@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Encontranos en Micanvit_IND, instagram, redes sociales"
+    />
+    <!-- Se coloca la imagen de la marca como icono de los titulos -->
+    <title>Contacto</title>
+    <link rel="icon" href="../assets/logo.ico" />
+    <link rel="stylesheet" href="../scss/style.css" />
+    <!--Las fuentes de la pagina se importan desde Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!--Para los iconos, se importan desde Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/e78fc278fc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- Se coloca la imagen de la marca como logo -->
+      <h1>
+        <a href="/index.html"
+          ><img src="../assets/logo.png" alt="logo" class="header__logoNav"
+        /></a>
+      </h1>
+      <ul class="header__navMenu">
+        <li class="header__navMenu--list">
+          <a href="../html/hombre.html" class="header__navMenu--link">Hombre</a>
+        </li>
+        <li class="header__navMenu--list">
+          <a href="../html/mujer.html" class="header__navMenu--link">Mujer</a>
+        </li>
+        <li class="header__navMenu--list">
+          <a href="../html/nino.html" class="header__navMenu--link">Niño</a>
+        </li>
+        <li class="header__navMenu--list">
+          <a href="../html/contacto.html" class="header__navMenu--link"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+    </header>
+    <!-- Se realiza formulario y se estiliza en sass _contact -->
+    <form method="GET">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" />
+
+      <label for="mail">Email</label>
+      <input type="email" name="mail" />
+
+      <label for="contraseña">Contraseña</label>
+      <input type="password" name="contraseña" />
+
+      <label for="">Seleccione sexo</label>
+      <label for="sexo">Hombre</label>
+      <input type="radio" name="sexo" value="hombre" class="radio" />
+      <label for="sexo">Mujer</label>
+      <input type="radio" name="sexo" value="mujer" class="radio" />
+      <label for="sexo">Otro</label>
+      <input type="radio" name="sexo" value="Otro" class="radio" />
+
+      <label for="Motivo">Motivo del contacto</label>
+      <select name="Motivo del contacto">
+        <option value="Consulta">Por una consulta</option>
+        <option value="Reclamo">Por un reclamo</option>
+        <option value="Sugerencia">Por una sugerencia</option>
+        <option value="Cambio">Por un cambio de producto</option>
+      </select>
+      <label for="texto">Desarrollo del motivo</label>
+      <textarea name="texto" id="" cols="30" rows="10"></textarea>
+
+      <input type="submit" value="Enviar" id="enviar" />
+      <input type="reset" value="Limpiar" id="limpiar" />
+    </form>
+    <footer class="footer">
+      <div class="footer__redes">
+        <!-- Los links dirigen a las redes de la marca -->
+        <a href="https://www.instagram.com/micanvit_ind/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/micanvit_ind-109980380748746"
+          ><i class="fab fa-facebook"></i
+        ></a>
+      </div>
+      <div class="footer__info">
+        <h4 class="footer__info--text">
+          Horario de atención de 09:00hs a 18:00hs
+        </h4>
+        <h4 class="footer__info--text">Teléfono: 15-1111-1111</h4>
+      </div>
+    </footer>
+  </body>
+</html>
