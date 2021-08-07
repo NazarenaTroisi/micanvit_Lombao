@@ -166,7 +166,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 320px) {
   body {
     width: 100vh;
     background-color: #550000;
@@ -176,7 +176,7 @@ footer {
 
   }
   label {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
   input,
   textarea,
