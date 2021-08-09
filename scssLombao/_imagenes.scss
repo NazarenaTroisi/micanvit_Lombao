@@ -6,7 +6,7 @@
 .galeria {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 10px;
+  grid-gap: 10px;
   transition: all 3s;
 }
 .card__galeria {

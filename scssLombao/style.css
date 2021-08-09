@@ -1,4 +1,4 @@
-@import url(c:\Users\Compumar\Desktop\TiendadeRopacopy\bootstrap\dist\css\bootstrap.css);
+@import url(c:\Users\Compumar\Desktop\TiendadeRopa_copy\bootstrap\dist\css\bootstrap.css);
 * {
   margin: 0;
   padding: 0;
@@ -87,7 +87,7 @@ i {
   border-radius: 30px;
 }
 
-form {
+.form__contacto {
   width: 32rem;
   margin-left: auto;
   margin-right: auto;
@@ -262,20 +262,193 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
-  body {
-    max-width: 100%;
-    align-content: center;
+  i {
+    font-size: 0.5rem;
+    margin: 0.3rem;
   }
-  label {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__logoNav {
+    width: 8rem;
+  }
+  .header__navMenu--list {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    text-align: center;
+  }
+  .header__navMenu--list .form__contacto {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  .header__navMenu--list label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
     font-size: 1rem;
+    font-weight: bold;
   }
-  input,
-  textarea,
-  select {
+  .header__navMenu--list input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
     width: 10rem;
+    height: 2rem;
+    margin: 0 auto 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-color: #851515;
+    outline: none;
   }
-  .i {
-    font-size: 1rem;
+  .header__navMenu--list textarea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    width: 21rem;
+    height: 2rem;
+    margin: 0 auto 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-color: #851515;
+    outline: none;
+    height: 3.75rem;
+  }
+  .header__navMenu--list select {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    width: 21rem;
+    height: 2rem;
+    margin: 0 auto 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-color: #851515;
+    outline: none;
+  }
+  .header__navMenu--list input.radio {
+    height: 1rem;
+  }
+  .header__navMenu--list input#enviar {
+    background-color: #83293a;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .header__navMenu--list #limpiar {
+    background-color: #83293a;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .header__navMenu--list footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .header__navMenu--list .footer__redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__navMenu--list .footer__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__navMenu--list .footer__info > .footer__info--text {
+    margin: 0.8rem;
   }
 }
 
@@ -288,9 +461,9 @@ footer {
 .galeria {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[6];
       grid-template-columns: repeat(6, 1fr);
-  gap: 10px;
+  grid-gap: 10px;
   -webkit-transition: all 3s;
   transition: all 3s;
 }
@@ -370,7 +543,7 @@ a:hover {
   .galeria {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr);
+    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
   .header__logoNav {
@@ -386,7 +559,7 @@ a:hover {
   .galeria {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr);
+    -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
   .carrusel {
