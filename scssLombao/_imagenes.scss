@@ -1,11 +1,11 @@
 .imagenes {
   display: grid;
-  padding-left: 5%;
+  padding-left: 2%;
 }
 
 .galeria {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   transition: all 3s;
 }
@@ -61,7 +61,7 @@ a:hover {
   }
   .galeria {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
   }
   .header__logoNav {
     border-radius: 50%;
@@ -74,7 +74,7 @@ a:hover {
   }
   .galeria {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
   .carrusel {
     display: none;

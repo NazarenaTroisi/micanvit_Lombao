@@ -455,14 +455,14 @@ footer {
 .imagenes {
   display: -ms-grid;
   display: grid;
-  padding-left: 5%;
+  padding-left: 2%;
 }
 
 .galeria {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[6];
-      grid-template-columns: repeat(6, 1fr);
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   -webkit-transition: all 3s;
   transition: all 3s;
@@ -543,8 +543,8 @@ a:hover {
   .galeria {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
   }
   .header__logoNav {
     border-radius: 50%;
@@ -559,8 +559,8 @@ a:hover {
   .galeria {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
   .carrusel {
     display: none;
