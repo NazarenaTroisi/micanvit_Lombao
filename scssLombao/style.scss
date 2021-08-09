@@ -170,28 +170,7 @@ i {
 .footer__info--text {
   margin: 0.8rem;
 }
-@media screen and(max-width: 768px) {
-  .header {
-    display: flex;
-    flex-direction: row;
-  }
-  .header__logoNav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 50%;
-  }
-  .header__navMenu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .header__navMenu--list .header__navMenu--link {
-    font-size: 1.5rem;
-  }
-}
+
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .header {
