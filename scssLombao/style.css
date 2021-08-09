@@ -282,7 +282,7 @@ footer {
             align-items: center;
   }
   .header__logoNav {
-    width: 8rem;
+    width: 10rem;
   }
   .header__navMenu--list {
     margin: 0.5rem;
@@ -290,7 +290,7 @@ footer {
     text-align: center;
   }
   .header__navMenu--list .form__contacto {
-    width: 20rem;
+    width: 15rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
