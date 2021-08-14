@@ -366,6 +366,7 @@ a:hover {
   .imagenes {
     max-width: 20rem;
     padding-left: 10%;
+    margin: auto;
   }
   .galeria {
     display: -ms-grid;
@@ -621,9 +622,6 @@ i {
     margin: 0.3rem;
     font-size: 0.75rem;
   }
-  div>.card{
-    margin: auto;
-  }
 }
 
 .btn-primary {
@@ -642,5 +640,7 @@ i {
   font-weight: bold;
 }
 
-
+.container {
+  padding-left: 10%;
+}
 /*# sourceMappingURL=style.css.map */

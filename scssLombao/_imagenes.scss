@@ -55,10 +55,12 @@ a:hover {
   .imagenes {
     max-width: 20rem;
     padding-left: 10%;
+    margin: auto;
   }
   .galeria {
     display: grid;
     grid-template-columns: 1fr;
+    
   }
   .carrusel {
     display: none;
