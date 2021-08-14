@@ -69,7 +69,7 @@ i {
 }
 
 .header__navMenu--list {
-  background-color: #d46a6a;
+  background-color: #f39494;
   margin: 0.5rem;
   padding: 0.3rem;
   border-radius: 30px;
@@ -78,11 +78,11 @@ i {
 .header__navMenu--list .header__navMenu--link {
   font-size: 2rem;
   font-weight: bold;
-  color: #550000;
+  color: #992d2d;
 }
 
 .header__navMenu--list .header__navMenu--link:hover {
-  background-color: #550000;
+  background-color: pink;
   color: #ffaaaa;
   border-radius: 30px;
 }
@@ -302,9 +302,9 @@ footer {
 .card__galeria {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: #d39595;
-  max-width: 90%;
-  border-radius: 10%;
+  background-color: #f1bcbc;
+  max-width: 100%;
+  border-radius: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -365,7 +365,7 @@ a:hover {
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .imagenes {
     max-width: 20rem;
-    padding-left: 10%;
+    /* padding-left: 10%; */
     margin: auto;
   }
   .galeria {
@@ -383,11 +383,11 @@ a:hover {
   margin: 0;
   padding: 0;
   font-family: "Dancing Script", cursive;
-  background-color: #ffaaaa;
+  background-color: #f6c7c7;
 }
 
 body {
-  background-color: #ffaaaa;
+  background-color: #f6c7c7;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -417,7 +417,7 @@ body {
 }
 
 .header__logoNav {
-  width: 150px;
+  width: 9.40rem;
   border-radius: 50%;
   -webkit-animation: header__logoNav infinite ease-in 3s 0s;
   animation: header__logoNav infinite ease-in 3s 0s;
@@ -460,6 +460,11 @@ i {
   color: #851515;
 }
 
+.icon__nav {
+  visibility: hidden;
+  display: none;
+}
+
 .header__navMenu {
   margin-right: 1rem;
   display: -webkit-box;
@@ -478,7 +483,7 @@ i {
 }
 
 .header__navMenu--list {
-  background-color: #d46a6a;
+  background-color: #f39494;
   margin: 0.5rem;
   padding: 0.3rem;
   border-radius: 30px;
@@ -487,11 +492,12 @@ i {
 .header__navMenu--list .header__navMenu--link {
   font-size: 2rem;
   font-weight: bold;
-  color: #550000;
+  color: #992d2d;
+  text-align: center;
 }
 
 .header__navMenu--list .header__navMenu--link:hover {
-  background-color: #550000;
+  background-color: #992d2d;
   color: #ffaaaa;
   border-radius: 30px;
 }
@@ -589,6 +595,18 @@ i {
     border-radius: 50%;
   }
   .header__navMenu {
+    visibility: hidden;
+  }
+  .header__navMenu--list .header__navMenu--link {
+    visibility: hidden;
+  }
+  .footer {
+    margin-top: 10%;
+  }
+  i {
+    font-size: 1.5rem;
+  }
+  .icon__nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -596,21 +614,15 @@ i {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .header__navMenu--list .header__navMenu--link {
-    font-size: 1rem;
-  }
-  .footer {
-    margin-top: 10%;
-  }
-  i {
-    font-size: 1.5rem;
+    visibility: visible;
+    font-size: 2.5rem;
+    padding-left: 10%;
   }
   .footer__info {
     -webkit-box-orient: vertical;
@@ -622,7 +634,7 @@ i {
     margin: 0.3rem;
     font-size: 0.75rem;
   }
-  div>.card{
+  div > .card {
     margin: auto;
   }
 }

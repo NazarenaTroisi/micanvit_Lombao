@@ -1,8 +1,8 @@
 @import "contact";
 @import "imagenes";
 
-$colorA: #550000;
-$colorBase: #ffaaaa;
+$colorA: #992d2d;
+$colorBase: #f6c7c7;
 $letraSitio: "Dancing Script", cursive;
 $body-bg: $colorBase;
 $fontsize: 2rem;
@@ -42,7 +42,7 @@ body {
   align-items: center;
 }
 .header__logoNav {
-  width: 150px;
+  width: 9.40rem;
   border-radius: 50%;
   -webkit-animation: header__logoNav infinite ease-in 3s 0s;
   animation: header__logoNav infinite ease-in 3s 0s;
@@ -79,6 +79,11 @@ i {
   margin: 0.3rem;
   color: $borderColor;
 }
+
+.icon__nav{
+  visibility: hidden;
+  display: none;
+}
 .header__navMenu {
   margin-right: 1rem;
   display: -webkit-box;
@@ -104,6 +109,7 @@ i {
     font-size: $fontsize;
     font-weight: bold;
     color: $ColorA;
+    text-align: center;
     &:hover {
       background-color: $colorA;
       color: $colorHover;
@@ -187,19 +193,26 @@ i {
     border-radius: 50%;
   }
   .header__navMenu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    visibility: hidden;
+
   }
   .header__navMenu--list .header__navMenu--link {
-    font-size: 1rem;
+    visibility: hidden;
   }
   .footer {
     margin-top: 10%; 
   }
   i{
     font-size: 1.5rem;
+  }
+  .icon__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    font-size: 2.5rem;
+    padding-left: 10%;
   }
   .footer__info {
     flex-direction: column;
@@ -208,7 +221,9 @@ i {
     margin: 0.3rem;
     font-size: 0.75rem;
   }
-
+div>.card{
+  margin: auto
+}
 }
 @import "../bootstrap/dist/css/bootstrap.css";
 
