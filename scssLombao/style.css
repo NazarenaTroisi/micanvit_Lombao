@@ -622,6 +622,9 @@ i {
     margin: 0.3rem;
     font-size: 0.75rem;
   }
+  div>.card{
+    margin: auto;
+  }
 }
 
 .btn-primary {
@@ -638,9 +641,5 @@ i {
 
 .btn {
   font-weight: bold;
-}
-
-.container {
-  padding-left: 10%;
 }
 /*# sourceMappingURL=style.css.map */
