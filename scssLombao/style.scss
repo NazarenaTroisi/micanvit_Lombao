@@ -229,7 +229,9 @@ $theme-colors: (
 .btn {
   font-weight: bold;
 }
-
+.container{
+  padding-left: 10%;
+}
 $white: $colorBase;
 $body-bg: $colorBase;
 $font-family-sans-serif: $letraSitio;
